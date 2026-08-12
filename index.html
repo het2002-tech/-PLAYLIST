@@ -1,0 +1,9 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>दुकान वाला Playlist</title><link rel="stylesheet" href="style.css"></head><body>
+<aside><div class="logo">🏪 <b>दुकान वाला<br>PLAYLIST</b><small>पुराने गाने • नई यादें</small></div>
+<nav><button class="active" onclick="home()">⌂ Home</button><button onclick="allSongs()">♫ All Songs</button><button onclick="decades()">▦ Categories</button><button onclick="singers()">♩ Singers</button><button onclick="favorites()">♡ My Favorites</button><button onclick="recent()">◴ Recently Played</button><button onclick="about()">ⓘ About Us</button></nav><div class="support">❤️ <b>Support दुकान वाला</b><p>हमारा मकसद है पुराने गानों को आप तक पहुँचाना!</p><button onclick="alert('Support page coming soon')">Support Us ☕</button></div></aside>
+<main><header><input id="search" placeholder="🔎 Search for songs, singers, albums..."><button onclick="theme()">☾</button><button class="signin">Sign In</button></header>
+<section class="hero"><small>RETRO MUSIC • CLASSIC HINDI</small><h1>दुकान वाला<br><span>PLAYLIST</span></h1><b>पुराने गाने • नई यादें</b><p>Classic Bollywood music discovery — songs, singers, decades and official listening sources in one place.</p><label>🎧 500+ Songs　❤️ Made with Love　♫ Bollywood Retro Hits</label></section>
+<section id="content"></section></main>
+<aside class="right"><h3>Now Playing</h3><div id="now">🎵 Nothing playing</div><hr><h3>Up Next (<span id="count">0</span>)</h3><div id="queue"></div></aside>
+<footer><div><b id="pt">Choose a song</b><small id="pa">दुकान वाला Playlist</small></div><div><button onclick="prev()">|◀</button><button class="play" onclick="toggle()">▶</button><button onclick="next()">▶|</button></div><div>🔊 ━━━━━</div></footer>
+<script src="songs.js"></script><script src="script.js"></script></body></html>
