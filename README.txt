@@ -1,8 +1,3 @@
-DUKAN WALA PLAYLIST — FINAL DEMO
-Open index.html in a browser.
-
-This is an original streaming-style front end inspired by the visual direction you requested.
-It includes search, decades, songs, favorites, recently played, queue and responsive layout.
-
-The Play button opens a YouTube search rather than hosting copyrighted MP3 files.
-For a public launch, connect each song to an official/authorized embed or properly licensed audio source.
+Put only audio files that you own, have licensed, or are otherwise authorized to stream here.
+Example filenames matching songs.js: song-1.mp3, song-2.mp3, etc.
+Do not add copyrighted Bollywood songs without permission.
