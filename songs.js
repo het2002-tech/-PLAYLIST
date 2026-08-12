@@ -1,58 +1,30 @@
 const songs=[
   {
-    "title": "Zindagi Ek Safar Hai Suhana",
-    "artist": "Kishore Kumar",
-    "era": "70s",
-    "duration": "04:45",
-    "audio": "audio/song-1.mp3"
-  },
-  {
-    "title": "Chaudhvin Ka Chand Ho",
-    "artist": "Mohammed Rafi",
+    "title": "Purani Dukan – 60s Mood",
+    "artist": "Dukan Wala Originals",
     "era": "60s",
-    "duration": "03:24",
-    "audio": "audio/song-2.mp3"
+    "duration": "00:18",
+    "audio": "audio/retro-60s.wav"
   },
   {
-    "title": "Lag Ja Gale",
-    "artist": "Lata Mangeshkar",
-    "era": "60s",
-    "duration": "04:20",
-    "audio": "audio/song-3.mp3"
-  },
-  {
-    "title": "Kabhi Kabhie Mere Dil Mein",
-    "artist": "Mukesh",
+    "title": "Shaam Ki Yaadein – 70s Mood",
+    "artist": "Dukan Wala Originals",
     "era": "70s",
-    "duration": "04:18",
-    "audio": "audio/song-4.mp3"
+    "duration": "00:18",
+    "audio": "audio/retro-70s.wav"
   },
   {
-    "title": "Roop Tera Mastana",
-    "artist": "Kishore Kumar",
-    "era": "70s",
-    "duration": "04:41",
-    "audio": "audio/song-5.mp3"
+    "title": "Cassette Wali Raat – 80s Mood",
+    "artist": "Dukan Wala Originals",
+    "era": "80s",
+    "duration": "00:18",
+    "audio": "audio/retro-80s.wav"
   },
   {
-    "title": "Piya Tu Ab To Aaja",
-    "artist": "Asha Bhosle",
-    "era": "70s",
-    "duration": "04:10",
-    "audio": "audio/song-6.mp3"
-  },
-  {
-    "title": "Mere Sapno Ki Rani",
-    "artist": "Kishore Kumar",
-    "era": "60s",
-    "duration": "04:25",
-    "audio": "audio/song-7.mp3"
-  },
-  {
-    "title": "Woh Shaam Kuch Ajeeb Thi",
-    "artist": "Kishore Kumar",
-    "era": "60s",
-    "duration": "04:44",
-    "audio": "audio/song-8.mp3"
+    "title": "Purani Yaari – 90s Mood",
+    "artist": "Dukan Wala Originals",
+    "era": "90s",
+    "duration": "00:18",
+    "audio": "audio/retro-90s.wav"
   }
 ];
