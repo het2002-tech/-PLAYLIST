@@ -1,11 +1,5 @@
-दुकान वाला PLAYLIST — WORKING ROYALTY-FREE DEMO
-
-This demo includes four ORIGINAL synthesized retro-style instrumental tracks created for this project:
-- Retro 60s Mood
-- Retro 70s Mood
-- Retro 80s Mood
-- Retro 90s Mood
-
-The browser player plays the files directly inside the website. No YouTube is opened.
-
-For a public commercial site, replace these demos only with music whose license explicitly permits your intended use, or with music you own.
+दुकान वाला PLAYLIST — VERSION 3
+This version is a music discovery website.
+Each song has direct buttons to search/open the song on YouTube or Spotify.
+The site does not host copyrighted MP3 files.
+Replace the catalogue with songs you are allowed to list.

@@ -1,12 +1,10 @@
-<!doctype html>
-<html lang="hi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>दुकान वाला PLAYLIST</title><link rel="stylesheet" href="style.css"></head>
-<body>
-<aside class="side"><h1>🏪 <span>दुकान वाला<br><b>PLAYLIST</b></span></h1><p>पुराने गाने • नई यादें</p>
-<nav><button onclick="home()">⌂ Home</button><button onclick="allSongs()">♫ All Songs</button><button onclick="filter('60s')">60s</button><button onclick="filter('70s')">70s</button><button onclick="filter('80s')">80s</button><button onclick="filter('90s')">90s</button><button onclick="favorites()">♡ Favorites</button></nav>
-<div class="note">🎧 इस demo में original retro-style tracks हैं। कोई copyrighted Bollywood recording नहीं।</div></aside>
-<main><header><input id="search" placeholder="🔎 गाना या artist खोजें..."><button onclick="document.body.classList.toggle('light')">☾</button></header>
-<section class="hero"><small>RETRO MUSIC</small><h2>दुकान वाला<br><b>PLAYLIST</b></h2><strong>पुराने गाने • नई यादें</strong><p>Original retro-style music के साथ अपना music player test करें।</p></section>
+<!doctype html><html lang="hi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>दुकान वाला PLAYLIST</title><link rel="stylesheet" href="style.css"></head><body>
+<aside><div class="brand">🏪 <div><b>दुकान वाला</b><strong>PLAYLIST</strong><small>पुराने गाने • नई यादें</small></div></div>
+<nav><button onclick="home()">⌂ Home</button><button onclick="allSongs()">♫ All Songs</button><button onclick="era('60s')">60s</button><button onclick="era('70s')">70s</button><button onclick="era('80s')">80s</button><button onclick="era('90s')">90s</button><button onclick="favs()">♡ Favorites</button></nav>
+<div class="note">YouTube और Spotify पर songs खोलें। Website copyrighted MP3 host नहीं करती।</div></aside>
+<main><header><input id="search" placeholder="🔎 Song या singer search करें..."><button onclick="document.body.classList.toggle('light')">☾</button></header>
+<section class="hero"><small>RETRO MUSIC DISCOVERY</small><h1>दुकान वाला<br><span>PLAYLIST</span></h1><b>पुराने गाने • नई यादें</b><p>अपने favourite पुराने गाने खोजें और उन्हें सीधे YouTube या Spotify पर खोलें।</p></section>
 <section id="content"></section></main>
-<footer><div><b id="pt">कोई गाना नहीं चला</b><small id="pa">दुकान वाला Originals</small></div><div class="controls"><button onclick="prev()">|◀</button><button class="play" onclick="toggle()">▶</button><button onclick="next()">▶|</button></div><div class="bar"><div id="prog"></div></div><audio id="audio" controls></audio></footer>
+<aside class="right"><h3>🎵 Quick Playlist</h3><div id="quick"></div></aside>
+<footer><div>🎵 <b id="current">Song चुनें</b><small id="artist">दुकान वाला Playlist</small></div><div><button onclick="prev()">|◀</button><button class="play" onclick="openCurrent()">▶</button><button onclick="next()">▶|</button></div><small>YouTube / Spotify</small></footer>
 <script src="songs.js"></script><script src="script.js"></script></body></html>
